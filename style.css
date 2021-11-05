@@ -1,0 +1,80 @@
+body{
+    background-color: gray;
+}
+.container{
+    display: flex;
+}
+.bolo{
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+.favorite{
+    width: 20px;
+    height: 20px;
+}
+.ana{
+    width: 60px;
+    height: 60px;
+
+}
+h1{
+    margin: 0%;
+}
+.info-box{
+    background-color: #f0f0f0;
+    width: 118px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 9px;
+    align-items: center;
+    justify-content: center;
+
+}
+.info-box2{
+    width: 238px;
+    height: 85px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panela{
+    background-color: white;
+}
+.ingredientes{
+    background-color: white;
+}
+.info{
+    background-color: white;
+}
+.conli{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+h5{
+    text-align: center;
+    background-color: #F0F0F0;
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.bolo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.texte{
+    display: flex;
+    flex-direction: column;
+}
+h1,h3,h4{
+    text-transform: uppercase;
+    color: tomato;
+}
