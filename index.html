@@ -1,39 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-Br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Jokempo</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="niker">
-            <img src="Logo-Nike.png">
-            <h1>Nike</h1>
-            <img src="Icone-Verificado.png" class='verificado'>
-            <h2>@nike</h2>
-            <img src="Dot.png" class='dot'>
-            <span>10 de mar</span>
+    <header class= 'header'>
+        <div class= winner-title>
+            <h1 class='winner-title'>Jogadora 1 ganhou!</h1>
         </div>
-        <div class="texto">
-            <p>Fail so hard, you can´t help but smile. Then do it again. Because trying somenthing new is always a win.
-            </p>
-            <p>Join us</p>
+        <div class= 'scoreboard-box'>
+            <span class='player-name player-name-1'>Jogadora 1</span>
+            <strong class='scoreboard score-board-1'>01</strong>
+            <span class= 'versus'>VS</span>
+            <strong class='scoreboard score-boar-2'>00</strong>
+            <span class='player-name player-name-2'>Jogadora 2</span>
         </div>
-        <div class="infer">
-            <img src="Comentario.png" alt="">
-            <span>3</span>
-            <img src="Retwettar.png" alt="">
-            <span>3,6 mil</span>
-            <img src="Favoritar.png" alt="">
-            <span>67mil</span>
-            <img src="Compartilhar.png" alt="">
+    </header>
+     <section class='battlefield-container'>
+         <div class= 'buttton-wrapper'>
+             <button class='button-move'>Pedra</button>
+             <button class='button-move'>Papel</button>
+             <button class='button-move'>Tesoura</button>
+         </div>
+         <div class='battlefield'>
+             <div class='field'></div>
+             <span class='versus-versus-big'>VS</span>
+             <div class='field'></div>
+         </div>
+         <div class= 'buttton-wrapper'>
+            <button class='button-move'>Pedra</button>
+            <button class='button-move'>Papel</button>
+            <button class='button-move'>Tesoura</button>
         </div>
-    </div>
+     </section>
+   <div class="button-bottom-wrapper">
+    <button class='button-move button-start'>Iniciar</button>
+    <button class='button-move'>Resetar</button>  
+   </div>
+
 </body>
 
 </html>
