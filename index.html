@@ -1,53 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
-    <title>Jokempo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Cadastrar</title>
 </head>
 
 <body>
-    <header class= 'header'>
-        <div class= winner-title>
-            <h1 class='winner-title'>Jogadora 1 ganhou!</h1>
-        </div>
-        <div class= 'scoreboard-box'>
-            <span class='player-name player-name-1'>Jogadora 1</span>
-            <strong class='scoreboard score-board-1'>01</strong>
-            <span class= 'versus'>VS</span>
-            <strong class='scoreboard score-boar-2'>00</strong>
-            <span class='player-name player-name-2'>Jogadora 2</span>
-        </div>
-    </header>
-     <section class='battlefield-container'>
-         <div class= 'buttton-wrapper'>
-             <button class='button-move'>Pedra</button>
-             <button class='button-move'>Papel</button>
-             <button class='button-move'>Tesoura</button>
-         </div>
-         <div class='battlefield'>
-             <div class='field'></div>
-             <span class='versus-versus-big'>VS</span>
-             <div class='field'></div>
-         </div>
-         <div class= 'buttton-wrapper'>
-            <button class='button-move'>Pedra</button>
-            <button class='button-move'>Papel</button>
-            <button class='button-move'>Tesoura</button>
-        </div>
-     </section>
-   <div class="button-bottom-wrapper">
-    <button class='button-move button-start'>Iniciar</button>
-    <button class='button-move'>Resetar</button>  
-   </div>
+    <form>
+        <h1>Faça seu login</h1>
+        <div class="email">
 
+            <label for="email">e-mail</label>
+            <input type="text" id="email" placeholder="Digite seu email" class="box-email">
+
+        </div>
+
+        <div class="senha">
+            <label for="password">senha</label>
+            <input type="password" id="password" required placeholder="Digite sua senha" class="box-email">
+        </div>
+
+        <div class="connect">
+            <input type="checkbox" id="connect" checked>
+            <label for="connect" class="conectado">Mantenha-me conectado</label>
+            <a href="#">Esqueci minha senha</a>
+        </div>
+
+        
+
+        <button type="submit" class='button-entrar'>Entrar</button>
+
+        <span>
+            Ainda não tem uma conta?
+            <a href="#">Cadastre-se</a>
+        </span>
+    </form>
 </body>
 
 </html>

@@ -1,121 +1,93 @@
-body{
-    background-color: #82CDFF;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin:  auto;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+h1{
+    font-weight: bold;
+    font-size: 37px;
+
+}
+label{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.box-email{
+    width: 515px;
+    height: 47px;
+}
+.email{
     display: flex;
+    flex-direction: column;
+    margin-bottom: 61px;
+}
+.senha{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 37px;
+}
+.connect{
+    display: flex;
+    margin-bottom: 27px;
+}
+.button-entrar{
+    color: white;
+    background-color:#3F3D56;
+    height: 47px;
+    width: 513px;
+    margin-bottom: 31px;
+}
+.conectado{
+    margin-right: 191px;
+}
+.puto{
+    width: 398px;
+    height: 47px;
+    border-radius: 1px solid black;
+    margin-bottom: 50px;
+}
+.sing{
+    display: flex;
+    flex-direction: column;
+}
+.ger{
+    display: flex;
+}
+.conduta{
+    display: flex;
+}
+.puti{
+    width: 198px;
+    height: 47px;
+}
+.puto-box{
+    display: flex;
+    flex-direction: column;
+}
+.puto-box2{
+    display: flex;
+    flex-direction: column;
+}
+.putax{
+    display: flex;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-    
 }
-.winner-title{
-    background-color:#0099FF ;
-    height: 74px;
-    font-size: 33px;
-    color: white;
-    display: flex;
-    align-items: center;
-    padding: 0 66px;
-    border-radius: 12px 12px 0 0;
-    max-width: 430px;
-  
-}
-.header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 56px;
-
-}
-.scoreboard-box{
-    height: 148px;
-    background-color:#0099FF ;
-    display: flex;
-    align-items: center;
-    width: 949px;
-    justify-content: space-evenly;
-    border-radius: 17px;
-    padding: 17px;
-}
-.player-name{
-    font-size: 38px;
-    color: white;
-    font-weight: bold;
-}
-.scoreboard{
-    color: #0099FF;
-    background-color: #DBF1FF;
-    font-size: 104px;
-    border-radius: 17px;
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    font-weight: 900;
-
-}
-.versus{
-    color: #FFFFFF;
-    font-size: 58px;
-    font-weight: 900;
-    margin-right: 40px;
-}
-.versus-versus-big{
-    font-size: 104px;
-    margin: 0 88px;
-    color: white;
-    text-align: center;
-}
-.player-name-1{
-    margin-right: 19px;
-    padding: 3px;
-}
-.player-name-2{
-    margin-right: 19px;
-    padding: 3px;
-}
-.score-board-1{
-    margin-right: 51px;
-}
-.score-board-2{
-    margin-left: 51px;
-}
-.buttton-wrapper{
-    flex-direction: column;
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-}
-.button-move{
-    height: 80px;
-    width: 220px;
-    background-color: #0099FF;
-    color: white;
-    font-size: 44px;
-    border: none;
-    border-radius: 8px;
-}
-.button-move:hover{
-    border: 1px solid #09f;
-    background-color: transparent;
-    color: #0099FF;
-    box-shadow: 5px 10px 10px black;
-}
-.battlefield-container{
-    display: flex;
+.puto1{
+    width: 510px;
+    height: 47px;
     margin-bottom: 22px;
 }
-.battlefield{
-    display: flex;
-    background-color: #0099FF;
-    padding: 30px;
-    border-radius: 17px;
-    margin: 0  19px ;
-}
-.field{
-    width: 464px;
-    height: 345px;
-    background-color: #DBF1FF;
-}
-.button-start{
-    margin-right: 101px;
+.mail{
+    margin-top: 44px;
 }
