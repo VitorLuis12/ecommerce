@@ -1,93 +1,121 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    margin:  auto;
+body{
+    background-color: #302D47;
+    font-family: 'Poppins', sans-serif;
 }
-form{
-  display: flex;
-  flex-direction: column;
-}
-h1{
-    font-weight: bold;
-    font-size: 37px;
 
-}
-label{
-    font-size: 14px;
-    text-transform: capitalize;
-}
-.box-email{
-    width: 515px;
-    height: 47px;
-}
-.email{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 61px;
-}
-.senha{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 37px;
-}
-.connect{
-    display: flex;
-    margin-bottom: 27px;
-}
-.button-entrar{
+.logo{
     color: white;
-    background-color:#3F3D56;
-    height: 47px;
-    width: 513px;
-    margin-bottom: 31px;
 }
-.conectado{
-    margin-right: 191px;
+.logo-title{
+    font-size: 51px;
+    font-weight: 900;
 }
-.puto{
-    width: 398px;
-    height: 47px;
-    border-radius: 1px solid black;
-    margin-bottom: 50px;
+.logo-sub-title{
+    font-size: 11px;
+    color: #BFBFBF;
 }
-.sing{
+.welcome{
+    font-size: 20px;
+    color: #BFBFBF;
+    margin-left: 46px;
+}
+.header{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
-.ger{
+.button{
+    background-color: #6C63FF;
+    color: white;
+    padding: 17px 33px;
+    font-size: 20px;
+    height: 55px;
     display: flex;
-}
-.conduta{
-    display: flex;
-}
-.puti{
-    width: 198px;
-    height: 47px;
-}
-.puto-box{
-    display: flex;
-    flex-direction: column;
-}
-.puto-box2{
-    display: flex;
-    flex-direction: column;
-}
-.putax{
-    display: flex;
-}
-.cont{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 7px;
+    border: none;
+    transition-duration: 300ms;
+
 }
-.puto1{
-    width: 510px;
-    height: 47px;
-    margin-bottom: 22px;
+.button1{
+    background-color: red;
+    color: white;
+    padding: 17px 33px;
+    font-size: 20px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border: none;
+    transition-duration: 300ms;
+    margin-left: 15px;
 }
-.mail{
-    margin-top: 44px;
+.button:hover{
+    border: 1px solid #302D47;
+    background-color: transparent;
+}
+.button1:hover{
+    border: 1px solid #302D47;
+    background-color: transparent;
+}
+.button-header-wrapper{
+    display: flex;
+}
+.space{
+    display: flex;
+    align-items: center;
+}
+.sub-header{
+    display: flex;
+    margin-top: 144px;
+    justify-content: space-around;
+    align-items: center;
+}
+.sub-header-1{
+    display: flex;
+    align-items: center;
+
+}
+.text{
+    height: 25px;
+    width: 190px;
+    margin-right: 10px;
+    color: #8D8BA4;
+    background-color: #302D47;
+    border: 1px solid;
+    border-radius: 7px;
+    
+}
+h3{
+    color: white;
+    font-size: 32px;
+}
+.button-box{
+    display: flex;
+}
+.product{
+    width: fit-content;
+    background-color:#BFBFBF2E;
+}
+
+.container-center{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: fit-content;
+    justify-content: center;
+
+}
+.produto-titulo{
+    color: #BFBFBF;
+    font-size: 20px;
+}
+.produto-preço{
+    color: #BFBFBF;
+    font-size: 20px;
 }
